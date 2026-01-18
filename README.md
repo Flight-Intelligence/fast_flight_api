@@ -7,21 +7,21 @@ Este projeto demonstra a construção de um microserviço de inferência de Mach
 
 # Arquitetura de Alto Nível:
 
-## API Java
-##       ↓
-## [ FastAPI Microservice ]
-##    ↓
-##    ├── AirportService (Coordenadas do Aeroporto)
-##    ├── WeatherClient (Dados Meteorológicos - Open-Meteo)
-##    ├── CancellationRate (Taxas de Cancelamento Históricas)
-##    │
-##    └── Features Builder (Engenharia de Features)
-##            ↓
-##          ML Model (scikit-learn Pipeline)
-##            ↓
-## [ FastAPI Response ]
-##       ↓
-## API Java
+### API Java
+###       ↓
+### [ FastAPI Microservice ]
+###    ↓
+###    ├── AirportService (Coordenadas do Aeroporto)
+###    ├── WeatherClient (Dados Meteorológicos - Open-Meteo)
+###    ├── CancellationRate (Taxas de Cancelamento Históricas)
+###    │
+###    └── Features Builder (Engenharia de Features)
+###            ↓
+###          ML Model (scikit-learn Pipeline)
+###            ↓
+### [ FastAPI Response ]
+###       ↓
+### API Java
 
 
 
